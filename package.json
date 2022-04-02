@@ -1,0 +1,27 @@
+{
+  "dependencies": {
+    "@swan-io/boxed": "^0.2.1",
+    "zod": "^3.14.3"
+  },
+  "name": "zod-match",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "vitest": "^0.8.1",
+    "typescript": "^4.6.3"
+  },
+  "scripts": {
+    "test": "vitest run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benbenbenbenbenben/zod-match.git"
+  },
+  "author": "Benjamin Babik",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/benbenbenbenbenben/zod-match/issues"
+  },
+  "homepage": "https://github.com/benbenbenbenbenben/zod-match#readme"
+}
