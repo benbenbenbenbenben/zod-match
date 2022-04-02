@@ -31,7 +31,7 @@ const iffyRequest = {
 }
 
 NewCarRequest.resultify(iffyRequest).match({
-    Ok: (car) => shipTheMotor(car)
+    Ok: (car) => shipTheMotor(car),
     Error: (error) => logBadThing(error),
 });
 ```
