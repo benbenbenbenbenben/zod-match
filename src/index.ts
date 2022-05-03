@@ -1,7 +1,7 @@
 import { Result } from "@swan-io/boxed";
 import zod, { ZodError, ZodTypeDef } from "zod";
 
-const wrap = <Z extends object>(z: Z) => {
+export const wrap = <Z extends object>(z: Z) => {
   Object.defineProperty(zod.ZodType.prototype, "resultify", {
     value: function (this: zod.ZodType, it: any) {
       const result = this.safeParse(it);
